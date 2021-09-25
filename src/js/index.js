@@ -111,7 +111,7 @@ class Dog extends Animal {
           </div>
           <div class="content">
             <p class="text">Age: ${this.age} & Number of Legs: ${this.numberOfLegs}</p>
-            <a href="#">Read More</a>
+            <span> Read More </span>
           </div>
         </div>
     `;
@@ -136,7 +136,7 @@ class Duck extends Animal {
           </div>
           <div class="content">
             <p class="text">Age: ${this.age} & Number of Legs: ${this.numberOfLegs}</p>
-            <a href="#">Read More</a>
+            <span>Read More</span>
           </div>
         </div>
     `;

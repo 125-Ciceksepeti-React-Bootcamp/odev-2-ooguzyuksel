@@ -63,11 +63,7 @@ nav {
     align-items: center;
     flex-wrap: wrap;
 
-    &:hover .card {
-      filter: blur(20px);
-      transform: scale(0.9);
-      opacity: 0.5;
-    }
+    
 
     .card {
       position: relative;
@@ -80,6 +76,11 @@ nav {
       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
       transition: 0.5s;
 
+      &:hover {
+        // filter: blur(20px);
+        transform: scale(0.9);
+        opacity: 0.5;
+      }
       .circle {
         position: relative;
         width: 100%;
@@ -116,7 +117,7 @@ nav {
           border-radius: 10px;
         }
 
-        a {
+        span {
           position: relative;
           display: inline-block;
           padding: 10px 20px;
@@ -128,7 +129,7 @@ nav {
         }
       }
         &:hover {
-          filter: blur(0px);
+          // filter: blur(0px);
           transform: scale(1.1);
           opacity: 1;
         }
