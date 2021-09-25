@@ -11,6 +11,6 @@
 - SASS & Responsive Design
 - Netlify for deployment
 
-# [Live Demo](https://pedantic-lumiere-d5703c.netlify.app/)
+# [Live Demo](https://agitated-goldstine-9d6cd3.netlify.app/)
 
 Contact me through -> [LinkedIn](in.com/in/developeroguzyuksel/)
